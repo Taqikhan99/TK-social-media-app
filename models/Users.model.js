@@ -40,6 +40,18 @@ const UserSchema = new Schema({
     isAdmin:{
         type:Boolean,
         default:false
+    },
+    desc:{
+        type:String,
+        max:50
+    },
+    city:{
+        type:String,
+        max:20
+    },
+    country:{
+        type:String,
+        max:20
     }
 
 },{timestamps:true})
