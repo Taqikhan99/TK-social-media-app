@@ -107,7 +107,7 @@ async function unfollowUser(req,res){
 
             // We will update followers and following lst of users if previously not included
             if (userToUnfollow.followers.includes(req.body.userid)){
-                await userToFollow.updateOne({$pull:{followers:req.body.userid}})
+                await userToUnfollow.updateOne({$pull:{followers:req.body.userid}})
                 await currentUser.updateOne({$pull:{following:req.params.id}})
                 res.status(200).json("successfully Unfollowed")
             }

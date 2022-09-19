@@ -6,7 +6,7 @@ const dotenv= require('dotenv')
 const cors= require('cors')
 const morgan = require('morgan');
 const userRouter = require('./routes/users.routes')
-const authRouter = require('./routes/auth.route')
+const authRouter = require('./routes/auth.routes')
 
 
 const app = express()
