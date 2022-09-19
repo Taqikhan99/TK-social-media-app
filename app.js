@@ -7,6 +7,7 @@ const cors= require('cors')
 const morgan = require('morgan');
 const userRouter = require('./routes/users.routes')
 const authRouter = require('./routes/auth.routes')
+const postRouter = require('./routes/posts.routes')
 
 
 const app = express()
@@ -23,6 +24,7 @@ app.use(morgan('common'))
 // routers
 app.use('/users',userRouter)
 app.use('/auth',authRouter)
+app.use('/posts',postRouter)
 
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>console.log('Successfully connected to database!'))
