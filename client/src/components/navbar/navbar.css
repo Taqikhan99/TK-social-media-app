@@ -1,0 +1,66 @@
+.navbar-container {
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  background-color: #ecf0b2;
+}
+
+.navbar-container .logosec {
+  text-align: center;
+}
+
+.navbar-container .logosec h2 {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar-container a {
+  text-decoration: none;
+}
+
+.navbar-container .iconsSec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.25rem;
+  gap: 3rem;
+}
+
+.navbar-container .iconsSec img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.navbar-container .iconsSec .topicons {
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.navbar-container .iconsSec .topicons .iconbadge {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0rem;
+  border-radius: 0.5rem;
+  color: #ecf0b2;
+  background-color: red;
+  position: absolute;
+  top: 1px;
+  left: 20px;
+}
+/*# sourceMappingURL=navbar.css.map */
