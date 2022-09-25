@@ -54,6 +54,14 @@ const Sidebar = () => {
                 <img src={friendImg} alt="friend photo" />
                 <h5>Peter Smith</h5>
             </li>
+            <li className="friend">
+                <img src={friendImg} alt="friend photo" />
+                <h5>Peter Smith</h5>
+            </li>
+            <li className="friend">
+                <img src={friendImg} alt="friend photo" />
+                <h5>Peter Smith</h5>
+            </li>
         </ul>
         
     </div>

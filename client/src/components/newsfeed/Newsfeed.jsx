@@ -1,8 +1,12 @@
 import React from 'react'
+import CreatePost from '../createpost/CreatePost'
+import './newsfeed.css'
 
 const Newsfeed = () => {
   return (
-    <div>Newsfeed</div>
+    <div className='newsfeed'>
+        <CreatePost/>
+    </div>
   )
 }
 

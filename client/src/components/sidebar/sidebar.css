@@ -1,6 +1,6 @@
 .sidebar-container {
   height: 90vh;
-  overflow: auto;
+  overflow-y: scroll;
 }
 
 .sidebar-container .sidebar-links {
@@ -18,7 +18,11 @@
 .sidebar-container .btn-warning {
   background-color: #ecf0b2;
   border: none;
-  width: 80%;
+  width: 100%;
+}
+
+.sidebar-container .btn-warning:hover {
+  background-color: #d6e079;
 }
 
 .sidebar-container .friendslist {
@@ -49,6 +53,20 @@
 }
 
 .sidebar-container .friendslist .friend:hover {
+  background-color: #d6e079;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  width: 5px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 5px;
   background-color: #d6e079;
 }
 /*# sourceMappingURL=sidebar.css.map */
