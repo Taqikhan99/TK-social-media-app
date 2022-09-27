@@ -1,8 +1,10 @@
 .createPostContainer {
+  width: 90%;
+  border-radius: 1rem;
   border: 1px solid #bebcbc;
   padding: 1rem;
-  -webkit-box-shadow: 1px 7px 20px 5px rgba(160, 160, 160, 0.75);
-          box-shadow: 1px 7px 20px 5px rgba(160, 160, 160, 0.75);
+  -webkit-box-shadow: 1px 7px 10px 5px rgba(160, 160, 160, 0.75);
+          box-shadow: 1px 7px 10px 5px rgba(160, 160, 160, 0.75);
 }
 
 .createPostContainer .createPostTop {

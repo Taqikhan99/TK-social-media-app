@@ -1,0 +1,73 @@
+.birthday-container{
+    display: flex;
+    // border-top: 1px solid gray;
+    margin-top: 1rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    span{
+        font-size: 1.2rem;
+    }
+
+    border-bottom: 2px solid rgb(212, 212, 212);
+
+}
+
+.adcontainer{
+    width: 100%;
+    // margin-top: 1rem;
+    padding: 1rem;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    img{
+        width: 100%;
+        opacity: 0.9;
+        border-radius: 1rem;
+
+    }
+}
+
+.contacts-container{
+    // padding: 1rem;
+    
+    .singleContact{
+        display: flex;
+        background-color: rgb(225, 233, 204);
+        border-radius: 1rem;
+        padding: 1rem;
+        gap: 1rem;
+        margin-top: 1rem;
+        align-items: center;
+        position: relative;
+        transition: all ease-in 0.6s;
+        cursor: pointer;
+
+        
+    }
+    .singleContact:hover{
+        transform: scale(1.05);
+    }
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 10rem;
+        }
+        h6{
+            font-weight: 700;
+        }
+        .online-contact{
+            position: absolute;
+            left: 4rem;
+            top: 1rem;
+            height: 14px;
+            width: 14px;
+            background-color: green;
+            border-radius: 50%;
+        }
+        
+
+}
+
