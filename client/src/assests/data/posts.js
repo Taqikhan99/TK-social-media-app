@@ -2,7 +2,7 @@ export const posts=[
     {
         id:1,
         desc:'Hello,this is my first post!',
-        photo:'images/posts/dank-meme.jpg',
+        photo:'/images/uposts/dank-meme.jpg',
         userid:1,
         date:"3 mins ago",
         like:4,
@@ -11,7 +11,7 @@ export const posts=[
     {
         id:2,
         desc:'Poor Profesoor',
-        photo:'images/posts/professor.jpg',
+        photo:'/images/uposts/professor.jpg',
         userid:2,
         date:"7 mins ago",
         like:11,
@@ -20,7 +20,7 @@ export const posts=[
     {
         id:3,
         desc:'Please tell how to focus?',
-        photo:'images/posts/focus.jpg',
+        photo:'/images/uposts/focus.jpg',
         userid:1,
         date:"10 mins ago",
         like:8,
@@ -29,7 +29,7 @@ export const posts=[
     {
         id:4,
         desc:'Unbelievable hapiness!',
-        photo:'images/posts/onlinememe.jpg',
+        photo:'/images/uposts/onlinememe.jpg',
         userid:3,
         date:"15 mins ago",
         like:21,
@@ -52,5 +52,25 @@ export const users=[
         id:3,
         profilepic:"images/users/user3.jpg",
         username:"Jammy carager"
+    },
+    {
+        id:4,
+        profilepic:"images/users/user4.jpg",
+        username:"Rao Abdul Hai"
+    },
+    {
+        id:5,
+        profilepic:"images/users/user5.jpg",
+        username:"Waqas Habib"
+    },
+    {
+        id:6,
+        profilepic:"images/users/user6.jpg",
+        username:"Khwaja Areeb"
+    },
+    {
+        id:7,
+        profilepic:"images/users/user7.jpg",
+        username:"Sheikh Osama"
     },
 ]

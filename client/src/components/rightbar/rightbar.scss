@@ -1,3 +1,4 @@
+@import  '../../utilities/variables' ;
 .birthday-container{
     display: flex;
     // border-top: 1px solid gray;
@@ -35,20 +36,21 @@
     
     .singleContact{
         display: flex;
-        background-color: rgb(225, 233, 204);
+        background-color: $color-primary-light;
         border-radius: 1rem;
         padding: 1rem;
         gap: 1rem;
         margin-top: 1rem;
         align-items: center;
         position: relative;
-        transition: all ease-in 0.6s;
+        transition: all ease-in 0.5s;
         cursor: pointer;
 
         
     }
     .singleContact:hover{
         transform: scale(1.05);
+        background-color: $color-primary;
     }
         img{
             width: 60px;

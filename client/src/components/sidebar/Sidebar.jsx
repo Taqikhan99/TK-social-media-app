@@ -2,7 +2,7 @@ import React from 'react'
 import {MdRssFeed,MdGroups,MdBookmarks} from 'react-icons/md'
 import {BsFillChatSquareTextFill,BsFillQuestionSquareFill} from 'react-icons/bs'
 import {SiCoursera} from 'react-icons/si'
-import friendImg from '../../assests/images/image18.jpeg'
+
 import './sidebar.css'
 
 const Sidebar = () => {
@@ -37,7 +37,7 @@ const Sidebar = () => {
                <button className="btn btn-warning">Show more</button> 
         </div>
         <hr />  
-        <ul className="friendslist">
+        {/* <ul className="friendslist">
             <li className="friend">
                 <img src={friendImg} alt="friend photo" />
                 <h5>Peter Smith</h5>
@@ -62,7 +62,7 @@ const Sidebar = () => {
                 <img src={friendImg} alt="friend photo" />
                 <h5>Peter Smith</h5>
             </li>
-        </ul>
+        </ul> */}
         
     </div>
   )

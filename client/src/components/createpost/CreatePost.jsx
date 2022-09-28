@@ -1,5 +1,5 @@
 import React from 'react'
-import dp from '../../assests/images/profilepic1.jpg'
+
 import './createpost.css'
 
 import {MdPhotoLibrary,MdLocationPin,MdEmojiEmotions} from 'react-icons/md'
@@ -10,7 +10,7 @@ const CreatePost = () => {
       <div className="container createPostContainer">
         {/* top sec of create post */}
         <div className="createPostTop">
-            <img src={dp} alt="profile pic" />
+            <img src="/images/users/user1.jpg" alt="profile pic" />
             <input type="text" name='postinput' className='postinput' placeholder='Whats on your mind?' />
         </div>
         <hr />

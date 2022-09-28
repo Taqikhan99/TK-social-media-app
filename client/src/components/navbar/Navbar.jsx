@@ -2,7 +2,7 @@ import React from 'react'
 import './navbar.css'
 import {Form} from 'react-bootstrap'
 import {MdNotifications,MdMessage} from 'react-icons/md'
-import profilepic1 from '../../assests/images/profilepic1.jpg'
+
 
 const Navbar = () => {
   return (
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <MdMessage fontSize={32}/>
                 <span className='iconbadge'>2</span></a>
                 
-            <a href=""> <img src={profilepic1} alt="" /></a>
+            <a href=""> <img src='/images/users/user1.jpg' alt="" /></a>
 
         </div>
        

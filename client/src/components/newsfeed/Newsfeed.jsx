@@ -1,8 +1,9 @@
 import React from 'react'
 import CreatePost from '../createpost/CreatePost'
 import SinglePost from '../singlepost/SinglePost'
-import dp1 from '../../assests/images/profilepic1.jpg'
-import sarf from '../../assests/images/sarfaraz_n.jpg'
+
+
+import { posts } from '../../assests/data/posts'
 
 import './newsfeed.css'
 
@@ -11,8 +12,13 @@ const Newsfeed = () => {
     <div className='newsfeed'>
         <CreatePost/>
         <br />
+        
+        {/* map through the posts */}
+        {posts.map((p)=>(
+          <SinglePost key={p.id} post={p}/>
+        ))}
 
-        <SinglePost 
+        {/* <SinglePost 
         postText="Hello,this is my first post!"
         postImage={sarf}
         authorImage={dp1}
@@ -29,7 +35,7 @@ const Newsfeed = () => {
         postImage={sarf}
         authorImage={dp1}
         noOfLikes={4}
-        />
+        /> */}
     </div>
   )
 }

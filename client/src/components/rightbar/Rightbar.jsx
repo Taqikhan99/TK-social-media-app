@@ -1,11 +1,13 @@
 import React from 'react'
-import gft from '../../assests/images/giftbox.png'
-import roohafza from '../../assests/images/roohafza.jpg'
+
 import './rightbar.css'
 
-import {contacts} from '../../assests/data/contacts'
+import {users} from '../../assests/data/posts'
+import Contact from '../contact/Contact'
 
 const Rightbar = () => {
+
+  let users2=users.filter(user=>user.id!=1)
   return (
     <div>
       <div className="container rightbar-container">
@@ -13,23 +15,19 @@ const Rightbar = () => {
       <h3>Birthdays</h3>
         <div className="birthday-container">
           
-          <img src={gft} alt="gift" /> 
+          <img src='/images/giftbox.png' alt="gift" /> 
           <span><b> John</b>, <b> Peter</b> and <b> 2</b> more have birthdays today</span>
         </div>
         <div className="adcontainer">
-          <img src={roohafza} alt="" />
+          <img src='/images/roohafza.jpg' alt="" />
         </div>
         <br />
         <h3>Contacts</h3>
         <div className="contacts-container">
         {
-          contacts.map((contact)=>(
-            <div className="singleContact">
-            <img src={require('../../assests/images/'+contact.image+'.jpg')}/>
-            <h6>{contact.name}</h6>
-            {contact.online && <span className='online-contact'></span>}
-            
-            </div>
+          
+          users2.map((contact)=>(
+            <Contact contact={contact}/>
           ))
         }
         </div>
