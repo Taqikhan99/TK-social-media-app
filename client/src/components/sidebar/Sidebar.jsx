@@ -36,7 +36,7 @@ const Sidebar = () => {
 
                <button className="btn btn-warning">Show more</button> 
         </div>
-        <hr />  
+        {/* <hr />   */}
         {/* <ul className="friendslist">
             <li className="friend">
                 <img src={friendImg} alt="friend photo" />

@@ -1,4 +1,13 @@
 @import  '../../utilities/variables' ;
+
+.rightbar-container{
+    // border: 2px solid red;
+    .profile-rightbar{
+        background-color: red;
+    }
+    
+}
+
 .birthday-container{
     display: flex;
     // border-top: 1px solid gray;
@@ -69,7 +78,28 @@
             background-color: green;
             border-radius: 50%;
         }
+
+        
         
 
+}
+.userInfo{
+    color:rgb(116, 116, 116)
+}
+.userFriends{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    .userFriend{
+        width: 120px;
+        height: auto;
+        padding: .5rem; 
+        cursor: pointer;   
+        img{
+            width: 100%;
+            border-radius: 1rem;
+            height: 120px;
+        }
+    }
 }
 

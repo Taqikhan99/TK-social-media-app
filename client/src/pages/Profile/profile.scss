@@ -1,0 +1,44 @@
+@import '../../utilities/variables.scss';
+
+.profile-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    .profileRightTop{
+        background-color: rgb(255, 255, 255);
+        height: 60vh;
+        width: 100%;
+        position: relative;
+        .coverSec{
+            width: 100%;
+            height: 50vh;
+            img{
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+            }
+        }
+        .profilepic{
+            
+            position: absolute;
+            height: 15rem;
+            width: 100%;
+            bottom: 2rem;
+            
+            display: flex;
+            justify-content: center;
+            border-radius: 1rem;
+            img{
+                border-radius: 1rem;
+                // box-shadow: 5px 5px 20px 5px gray;
+                cursor: pointer;
+                border: 3px solid $color-primary;
+            }
+            
+        }
+    }
+    .profileRightBottom{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}

@@ -1,0 +1,52 @@
+.profile-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.profile-container .profileRightTop {
+  background-color: white;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+
+.profile-container .profileRightTop .coverSec {
+  width: 100%;
+  height: 50vh;
+}
+
+.profile-container .profileRightTop .coverSec img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.profile-container .profileRightTop .profilepic {
+  position: absolute;
+  height: 15rem;
+  width: 100%;
+  bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 1rem;
+}
+
+.profile-container .profileRightTop .profilepic img {
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 3px solid #d6e079;
+}
+
+.profile-container .profileRightBottom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+}
+/*# sourceMappingURL=profile.css.map */

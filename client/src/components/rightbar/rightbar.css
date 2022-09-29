@@ -1,3 +1,7 @@
+.rightbar-container .profile-rightbar {
+  background-color: red;
+}
+
 .birthday-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,5 +78,31 @@
   width: 14px;
   background-color: green;
   border-radius: 50%;
+}
+
+.userInfo {
+  color: #747474;
+}
+
+.userFriends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.userFriends .userFriend {
+  width: 120px;
+  height: auto;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.userFriends .userFriend img {
+  width: 100%;
+  border-radius: 1rem;
+  height: 120px;
 }
 /*# sourceMappingURL=rightbar.css.map */
